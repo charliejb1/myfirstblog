@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(193, 240, 240);
+}
+
+header{
+   border-bottom: 5px solid black
+}
+h1{
+    font-family: caveat; lucida sans;
+    font-size: 40px;
+}
+h2{
+    font-family: caveat; lucida sans;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+#blog-1{
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+
+}
+#blog-2{
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+    
+}
+#blog-3{
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+}
+#blog-4{
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+}
+#blog-5{
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+}
+
+p{
+    font-family: caveat; lucida sans;
+    font-size: 30px;
+    margin-top: 0%;
+    margin-left: 5px;
+    margin-bottom: 50px;
+
+}
+
+h3{
+    font-family: caveat; lucida sans;
+    font-size: 40px;
+
+}
+
+footer{
+    border-top: 5px solid black;
+    margin-top: 150px;
+}
