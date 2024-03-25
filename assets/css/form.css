@@ -1,67 +1,107 @@
 body{
-    background-color: rgb(193, 240, 240);
+    background-image: url(simpleblue.jpg)
 }
 
-header{
-   border-bottom: 5px solid black
-}
-h1{
-    font-family: caveat; lucida sans;
-    font-size: 40px;
-}
-h2{
-    font-family: caveat; lucida sans;
-    font-size: 30px;
-    margin-bottom: 0px;
-    margin-top: 5px;
-    margin-left: 5px;
-}
+h1 {
+margin-top: 200px;
+font-family: caveat; lucida sans;
+font-size: 100px;
+color: rgb(1, 128, 182);
+background-color: rgb(96, 244, 190);
+text-align: center; 
+border-radius: 100px;
 
-.container {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px
-}
-#blog-1{
-    border: solid 2px blueviolet;
-    border-radius: 20px;
-
-}
-#blog-2{
-    border: solid 2px blueviolet;
-    border-radius: 20px;
-    
-}
-#blog-3{
-    border: solid 2px blueviolet;
-    border-radius: 20px;
-}
-#blog-4{
-    border: solid 2px blueviolet;
-    border-radius: 20px;
-}
-#blog-5{
-    border: solid 2px blueviolet;
-    border-radius: 20px;
 }
 
 p{
-    font-family: caveat; lucida sans;
+    font-family:caveat; lucida sans;
+    color: rgb(1, 102, 169);
     font-size: 30px;
-    margin-top: 0%;
-    margin-left: 5px;
-    margin-bottom: 50px;
-
+    text-align: center;
 }
-
-h3{
+h2 {
+    margin-top: 2px;
     font-family: caveat; lucida sans;
-    font-size: 40px;
+    font-size: 50px;
+    color: rgb(0, 51, 255);
+    text-align: center;
+   
+    }
+
+.container {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+    
+}
+
+#my-first-blog {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(149, 233, 231);
+    border-radius: 20px;
+    width: 1000px;
+    
+}
+
+#mind {
+    border: solid 2px rgb(253, 253, 253);
+    background-color: rgb(47, 205, 202);
+    border-radius: 20px;
+    width: 1000px;
 
 }
 
-footer{
-    border-top: 5px solid black;
-    margin-top: 150px;
+.row {
+    
+
+}
+
+.form-input-1{
+    width: 500px;
+    height: 30px; 
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.form-input-2{
+    width: 500px;
+    height: 30px; 
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.form-input-3{
+    width: 800px;
+    height: 150px; 
+    border-radius: 20px;
+    margin-left: 5px;
+}
+label {
+font-family: caveat; lucida sans;
+font-size: 25px;
+margin-left: 7px;
+
+}
+
+.text-1{
+    height: 75px
+}
+.text-2{
+    height: 75px
+}
+.text-3{
+    height: 200px
+}
+
+#submit-button {
+    position: relative;
+    left: 400px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 40px;
+    font-family:caveat; lucida sans;
+    font-size: 25px;
+    border-radius: 20px;
 }

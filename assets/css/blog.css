@@ -1,0 +1,91 @@
+body{
+    background-color:azure
+}
+
+
+header{
+   border-bottom: 5px solid black
+}
+
+
+#light-button{
+    margin-bottom: 5px;
+    position: relative;
+    left: 1570px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+#back-button{
+    position: relative;
+    right: 90px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+
+
+h1{
+    font-family: caveat; lucida sans;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+h2{
+    font-family: caveat; lucida sans;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+#blog-1{
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+
+}
+#blog-2{
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+    
+}
+#blog-3{
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+}
+#blog-4{
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+}
+#blog-5{
+    border: solid 2px blueviolet;
+    border-radius: 20px;
+}
+
+p{
+    font-family: caveat; lucida sans;
+    font-size: 30px;
+    margin-top: 0%;
+    margin-left: 5px;
+    margin-bottom: 50px;
+
+}
+
+h3{
+    font-family: caveat; lucida sans;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+
+footer{
+    border-top: 5px solid black;
+    margin-top: 150px;
+    font-size: 40px;
+}
