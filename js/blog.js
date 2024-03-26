@@ -8,8 +8,6 @@ function renderBlogs(){
   if (!allBlogs) { allBlogs = [] }
 }
 
-}
-
 mode.addEventListener("click",() => {
     if (document.body.style.backgroundColor == "azure") {
         document.body.style.backgroundColor = "black";
