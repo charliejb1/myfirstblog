@@ -8,12 +8,12 @@ function renderBlogs(){
   if (!allBlogs) { allBlogs = [] }
 }
 
+}
 
 mode.addEventListener("click",() => {
     if (document.body.style.backgroundColor == "azure") {
         document.body.style.backgroundColor = "black";
         heading.style.color = "white";
-    
       footer.style.color = "white";
       
     }
@@ -21,7 +21,6 @@ mode.addEventListener("click",() => {
      document.body.style.backgroundColor == "black";
     document.body.style.backgroundColor = "azure";
     heading.style.color = "black";
-  
   footer.style.color = "black";
 
     }
