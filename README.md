@@ -14,3 +14,8 @@ local storage: https://www.youtube.com/watch?v=hG0YDpePCjI
 
 Activity 26 from O4-Web_APIs (local storage)
 Activity 5 from 05-Third-Party-APIs (container and form)
+
+![First page consisting of form for user blogs with descrition "My First Blog"](./assets/images/main-form-page1.png)
+![Second page consisting of space for blogs to be filled from data subitted on first page](./assets/images/blog-page2.png)
+![Second page for blogs only now in dark mode](./assets/images/blog-page2-dark.png)
+
