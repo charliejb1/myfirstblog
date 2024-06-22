@@ -8,47 +8,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
+
     <section class="container">
+
         <div id="my-first-blog">
            <h1>My First Blog</h1>
            <p>Add your thoughts to a new blog! ---> </P>
         </div>  
         
-         <div id="mind"> 
+         <form id="mind"> 
            <h2>What's on your mind?</h2>
-           <form id="blog-form">  
             <div class="row">
-                <div class="text-1">
-                  <label for="username">Username:</label>
-                  <input id="name" type="text" class="form-input-1"  placeholder="Enter name" /></input>
+              <div class="text-1">
+                <label for="username">Username:</label>
+                <input id="name" type="text" class="form-input-1"  placeholder="Enter name" />
+              </div>
+
+              <div class="text-2">
+                  <label for="article-title">Article Title:</label>
+                  <input id="title" type="text" class="form-input-2"  placeholder="Enter title" />
                 </div>
 
-                <div class="text-2">
-                    <label for="article-title">Article Title:</label>
-                    <input id="title" type="text" class="form-input-2"  placeholder="Enter title" /></input>
-                  </div>
+                <div class="text-3">
+                  <label for="content"> Content for Article:</label>
+                  <input id="content" type="text" class="form-input-3" placeholder="Enter content" />
+                </div>
+                
+                <div>
+                  <input id="submit-button" type="submit" />
+                </div>
 
-                  <div class="text-3">
-                    <label for="content"> Content for Article:</label>
-                    <input id="content" type="text" class="form-input-3" placeholder="Enter content" /></input>
-                  </div>
-                  
-                  <div>
-                    <input id="submit-button" type="Submit" onclick="storageFunction(event)" value="Submit"/>
-                  
-                    
-           </form>
-
-           <form>
-
-         </div>  
+          </form>
+          
 
     </section>
 
     <script src="js/form.js"></script>
     
-
 
 </body>
 </html>
